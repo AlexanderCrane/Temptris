@@ -15,8 +15,15 @@ if place_meeting(x,y+spd_y,par_solid) {
 }
 y+= spd_y;
 
-//if(movex && canMove){
-//	x = x + 100 * dir;
-//	dir = 0;
-//	movex = false;
-//}
+
+if(canMove)
+{
+	if keyboard_check_pressed(vk_left)
+	{
+		x = x - 160;
+	}
+	if keyboard_check_pressed(vk_right)
+	{	
+		x = x + 160;
+	}
+}
