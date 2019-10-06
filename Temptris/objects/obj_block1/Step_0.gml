@@ -10,6 +10,7 @@ if place_meeting(x,y+spd_y,par_solid) {
 			c.isSpawned = false;
 			doneOnce = true;
 			canMove = false;
+			audio_play_sound(blockfall,1,0)
 			canRotate = false;
 		}
 }

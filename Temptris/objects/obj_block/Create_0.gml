@@ -5,3 +5,4 @@ canMove = true;
 canRotate = true;
 spd_y = 1;
 //movex = false;
+sound_played = false;

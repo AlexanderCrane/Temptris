@@ -21,3 +21,4 @@ if place_meeting(x,y+spd_y,par_solid) {
         spd_y = 0;
 }
 y+= spd_y;
+
