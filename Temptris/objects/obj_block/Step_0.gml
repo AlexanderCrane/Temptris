@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-spd_y = 1;
-
 if place_meeting(x,y+spd_y,par_solid) {
         while !place_meeting(x,y+sign(spd_y),par_solid) {
                  y += sign(spd_y);
@@ -12,6 +10,7 @@ if place_meeting(x,y+spd_y,par_solid) {
 			c.isSpawned = false;
 			doneOnce = true;
 			canMove = false;
+			canRotate = false;
 		}
 }
 y+= spd_y;
