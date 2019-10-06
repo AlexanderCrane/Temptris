@@ -17,5 +17,3 @@ Rotate pieces
 
 
 */
-
-image_angle
