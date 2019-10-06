@@ -3,7 +3,7 @@
 
 if(!isSpawned && game_mode == "tetris"){
 	isSpawned = true;
-	instance_create_depth(960, 80, 0, choose(obj_block, obj_block1));
+	instance_create_depth(960, 80, 0, choose(obj_block));
 }
 
 if(timer > 0 && game_mode == "zelda"){
