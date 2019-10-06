@@ -1,2 +1,2 @@
 ///ini
-spd_max = 4
+spd_max = 2
