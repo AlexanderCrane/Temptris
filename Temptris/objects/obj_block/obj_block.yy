@@ -30,7 +30,7 @@
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 82,
+            "enumb": 32,
             "eventtype": 9,
             "m_owner": "6d80f76a-7c5a-4bdb-8ca2-71f18d2ee852"
         },
@@ -40,7 +40,7 @@
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 32,
+            "enumb": 40,
             "eventtype": 5,
             "m_owner": "6d80f76a-7c5a-4bdb-8ca2-71f18d2ee852"
         },
@@ -50,7 +50,7 @@
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 32,
+            "enumb": 40,
             "eventtype": 10,
             "m_owner": "6d80f76a-7c5a-4bdb-8ca2-71f18d2ee852"
         },
@@ -83,6 +83,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "47ff6e6d-f64c-4974-82d1-a0f0a71ff74a",
+    "spriteId": "db6c6a10-6712-47c4-a313-63a944694788",
     "visible": true
 }
