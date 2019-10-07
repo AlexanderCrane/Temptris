@@ -303,10 +303,18 @@
             }
         },
         {
+            "Key": "7e13f1cd-f2f3-4209-8f87-15ecf92b38cb",
+            "Value": {
+                "id": "f34bb68a-b9dc-457b-b1bb-8266229757cb",
+                "resourcePath": "objects\\obj_skull\\obj_skull.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7ef256a4-9e1c-403c-9299-0d92fec40160",
             "Value": {
                 "id": "dc6b4571-8a69-4971-8d49-0cea674ecee6",
-                "resourcePath": "objects\\obj_temptris\\obj_temptris.yy",
+                "resourcePath": "objects\\obj_fake_temptris\\obj_fake_temptris.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -348,6 +356,14 @@
                 "id": "109a0ed1-95dd-451d-8cee-3a96ce6d6089",
                 "resourcePath": "objects\\par_solid\\par_solid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9b4aa108-e786-4f84-aed2-0283f022c7ee",
+            "Value": {
+                "id": "7c998e0c-9302-4d9c-9a31-d2b081838bbf",
+                "resourcePath": "sprites\\spr_hourglass\\spr_hourglass.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -415,6 +431,14 @@
             }
         },
         {
+            "Key": "b4eefb2a-7f87-45c5-b641-7ddbed489a78",
+            "Value": {
+                "id": "a7f53d9e-98a5-49ed-9238-67c2df470839",
+                "resourcePath": "objects\\obj_empty_sprite\\obj_empty_sprite.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "be6054be-0d5a-40e4-a2b9-6491f8a9a369",
             "Value": {
                 "id": "a8f92227-723c-416f-80e8-a4d36086987b",
@@ -463,14 +487,6 @@
             }
         },
         {
-            "Key": "d2ba8f3c-37ba-4e8f-82f2-762834ce9794",
-            "Value": {
-                "id": "46bb4789-fd81-4c8d-ba78-dadda7bbacdd",
-                "resourcePath": "sprites\\sprite6\\sprite6.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d6138c9c-5836-4ced-a8b3-21f667b35c2d",
             "Value": {
                 "id": "213235cb-a982-4ae5-b688-41d1fb2f57ec",
@@ -484,6 +500,14 @@
                 "id": "963375d4-b3e2-49e1-a256-e0fe74d37467",
                 "resourcePath": "sprites\\spr_char_r\\spr_char_r.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d6ec8169-2ff0-435d-a43c-19d93fa87925",
+            "Value": {
+                "id": "2ffe0355-f0d1-49ca-a950-77ca8e06b14a",
+                "resourcePath": "objects\\obj_temptris\\obj_temptris.yy",
+                "resourceType": "GMObject"
             }
         },
         {

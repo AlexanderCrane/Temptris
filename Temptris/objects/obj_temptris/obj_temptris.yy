@@ -1,10 +1,19 @@
 {
-    "id": "7ef256a4-9e1c-403c-9299-0d92fec40160",
+    "id": "d6ec8169-2ff0-435d-a43c-19d93fa87925",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_temptris",
     "eventList": [
-        
+        {
+            "id": "23037741-788e-459c-9685-400900902371",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d6ec8169-2ff0-435d-a43c-19d93fa87925"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
