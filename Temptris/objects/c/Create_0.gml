@@ -16,3 +16,5 @@ timer = room_speed * 30;
 hp = 6;
 
 gameWin = false;
+
+skullIndex = 0;
