@@ -1,6 +1,6 @@
 ///ini
 
-spd_max = 2;
+spd_max = 1;
 face = 1;
 image_speed = 0;
 

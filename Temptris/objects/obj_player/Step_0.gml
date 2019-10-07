@@ -22,6 +22,17 @@ if place_meeting(x,y+spd_y,par_solid) {
 }
 y+= spd_y;
 
+if(place_meeting(x,y,obj_lava) && c.game_mode == "zelda") {
+	if(!c.restart){
+		audio_play_sound(game_over, 1, 0);
+		c.restart = true;
+	}
+
+	if(c.restart == true && !audio_is_playing(game_over)){
+		game_restart();	
+	}	
+}
+
 if keyboard_check(vk_up)
 {face = 1}
 

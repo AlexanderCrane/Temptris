@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "285366e5-1d48-49b8-b677-f7443f24f3b4",
+            "Value": {
+                "id": "df11912a-cc2e-49e2-8d29-9eacb222a41d",
+                "resourcePath": "sprites\\spr_lava\\spr_lava.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "292990d1-2cd4-4324-b474-d476b3a18258",
             "Value": {
                 "id": "65d03356-9cec-4ee1-937a-50073a54119d",
@@ -188,6 +196,14 @@
                 "id": "dad4ea59-34bb-4243-bea7-4a99d547c7e3",
                 "resourcePath": "sprites\\sprite3\\sprite3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "51ed28de-2247-4b88-9d86-67f42f20ec5f",
+            "Value": {
+                "id": "c495c186-e51a-4dbc-9db7-10246bdc2ae6",
+                "resourcePath": "objects\\obj_lava\\obj_lava.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -284,6 +300,14 @@
                 "id": "109a0ed1-95dd-451d-8cee-3a96ce6d6089",
                 "resourcePath": "objects\\par_solid\\par_solid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9cbd3b3c-1c17-4727-86a1-6d8b702a2ee3",
+            "Value": {
+                "id": "3cd6a1c1-f452-4b2b-b523-459c9a99e044",
+                "resourcePath": "scripts\\toggle_game_mode\\toggle_game_mode.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -529,7 +553,8 @@
     ],
     "script_order": [
         "43ab0804-5866-4628-aa9f-a0f809569153",
-        "0f07533c-c115-4404-a21d-c079873e31de"
+        "0f07533c-c115-4404-a21d-c079873e31de",
+        "9cbd3b3c-1c17-4727-86a1-6d8b702a2ee3"
     ],
     "tutorial": ""
 }

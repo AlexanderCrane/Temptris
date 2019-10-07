@@ -9,6 +9,6 @@ if(game_mode == "zelda" && timer > 0){
 	ui_text = ceil(string(timer/room_speed));
 	draw_text(room_width/2,y+oY,ui_text);
 } else if(game_mode == "zelda" && timer <= 0){
-	ui_text = "GAME OVER - Restarting";
-	draw_text(room_width/2-200,y+oY,ui_text);
+	ui_text = "Ran out of time! - Restarting";
+	draw_text(room_width/2-300,room_height/2,ui_text);
 }

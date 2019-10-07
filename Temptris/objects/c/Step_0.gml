@@ -3,12 +3,14 @@
 
 if(!isSpawned && game_mode == "tetris"){
 	isSpawned = true;
-	instance_create_depth(960, 80, 0, choose(obj_block));
+	instance_create_depth(960, 100, 0, choose(obj_block));
 }
 
 if(timer > 0 && game_mode == "zelda"){
 	timer--;	
 } else if(timer <= 0 && game_mode == "zelda" && !restart){
+	audio_stop_all();
+	instance_deactivate_all(self);
 	audio_play_sound(game_over, 1, 0);
 	restart = true;
 }
