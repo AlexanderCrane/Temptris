@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-if(canMove){
-	instance_destroy();
-}
+///// @description Insert description here
+//// You can write your code in this editor
+//if(canMove){
+//	instance_destroy();
+//}

@@ -22,5 +22,16 @@ if(game_mode == "zelda" && timer > 0){
 } else if(game_mode == "tetris") {
 	draw_set_color(c_red);
 	draw_set_font(font2);
-	draw_text(room_width * 1/20, room_height * 1/5, instr_text);	
+	draw_text(room_width * 1/40, room_height * 1/5, instr_text);	
+}
+
+if(gameWin) {
+	draw_set_color(c_green);
+	draw_set_font(font1);
+	instance_deactivate_all(self);
+	lay_id = layer_get_id("Background");
+	back_id = layer_background_get_id(lay_id);
+	layer_background_blend(back_id, $000000);
+	win_text = "YOU WIN! You defeated the Temptris!\n                Esc to exit\n                'R' to restart";
+	draw_text(300,room_height/2,win_text);
 }

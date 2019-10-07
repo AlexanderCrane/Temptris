@@ -23,7 +23,7 @@ if place_meeting(x,y+spd_y,par_solid) {
 y+= spd_y;
 
 if(place_meeting(x,y,obj_lava) && c.game_mode == "zelda") {
-	c.timer = -1;
+	c.timer = 0;
 }
 
 if keyboard_check(vk_up)
@@ -78,7 +78,10 @@ if keyboard_check_pressed(vk_space)
 
 if place_meeting(x,y,obj_enemy) && (inv_frames = false)
 	{
-	hp -= 1
+	c.hp -= 1
+	if(c.hp <= 0){
+		c.timer = 0;	
+	}
 	inv_frames = true
 	alarm[0] = 120
 	audio_play_sound(hit1,1,0)

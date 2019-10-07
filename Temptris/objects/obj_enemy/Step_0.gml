@@ -1,10 +1,9 @@
 if place_meeting(x,y,obj_sword) && inv_frames == false
 {
 	if(isTemptris){
-		if(!instance_exists(obj_skull)){
-			hp -=1;
-			inv_frames = true;
-			alarm[0] = 60
+		if(true){
+			c.countingDown = false;
+			c.gameWin = true;
 		} else {
 			displayWarning = true;
 			alarm[1] = 180;

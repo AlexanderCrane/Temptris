@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-timer = 2000;
+///// @description Insert description here
+//// You can write your code in this editor
+//timer = 2000;

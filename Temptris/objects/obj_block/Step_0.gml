@@ -37,4 +37,8 @@ if(canMove)
 	{	
 		x = x + 160;
 	}
+	
+	if(c.game_mode == "zelda"){
+		instance_destroy();	
+	}
 }
