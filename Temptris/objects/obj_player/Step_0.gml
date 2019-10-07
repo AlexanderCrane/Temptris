@@ -79,6 +79,7 @@ if !instance_exists(obj_sword)
 if keyboard_check_pressed(vk_space)
 	{
 		instance_create_depth(x,y,depth-1,obj_sword)
+		audio_play_sound(swipe,1,0)
 	}
 }
 
